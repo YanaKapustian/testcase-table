@@ -1,0 +1,50 @@
+.link {
+   text-decoration: none;
+   color: black;
+}
+.no-margin {
+   margin: 0;
+}
+.input {
+   width: 400px;
+   height: 30px;
+   font-size: 16px;
+   padding: 4px 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: white;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 5px 5px 10px #d0d0d06d, -3px -3px 10px #d0d0d06d;
+   font-family: 'Inter', sans-serif;
+}
+.btn__add-client {
+   border-radius: 5px;
+   border: none;
+   background-color: white;
+   font-size: 17px;
+   color: black;
+   font-weight: 500;
+   padding-top: 5px;
+}
+.message {
+   font-size: 18px;
+   color: rgb(230, 101, 101);
+   margin: 0;
+}
+.alert {
+   width: 100%;
+   border-radius: 3px;
+   padding: 15px 25px;
+   position: absolute;
+   top: -160px;
+   left: -15px;
+}
+.alert-success {
+   background-color: #d4edda;
+   color: #1c643e;
+}
+.alert-error {
+   background-color: #f8d7da;
+   color: #822b43;
+}
